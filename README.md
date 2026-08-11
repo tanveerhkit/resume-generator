@@ -1,32 +1,43 @@
 # ResumeGen
-ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements.
-Live resume editor.
 
-[Visit Now](https://resumegenx.netlify.app/) 🚀
+## Overview
 
-## 🖥️ Tech Stack
+ResumeGen is a browser-based resume builder with a guided editor and live preview. Users can enter personal details, education, work history, projects, and skills, choose a visual theme, upload an image, and print the completed resume.
 
-![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![chakraui](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
+[Open the hosted app](https://resumegenx.netlify.app/)
 
-Extras: React-To-Print
+## Features
 
-**Deployed On:**
+- Step-based resume editing
+- Sections for profile, education, work, projects, and skills
+- Live resume preview
+- Theme selection
+- Image upload
+- Printable output through React To Print
 
-![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+## Tech stack
 
-## Sneak  Peek of Home Page 🙈 :
-![screencapture-resumegenx-netlify-app-2022-01-18-16_24_49](https://user-images.githubusercontent.com/64949957/159115311-42275489-8fbe-4d80-9f7c-4d308d9287ce.png)
-![smartmockups_kyk0u3hp](https://user-images.githubusercontent.com/64949957/159115313-ae8bf72c-2a79-425d-8520-32b6ba3e0fcf.jpg)
+- React 17 and Create React App
+- Chakra UI
+- React To Print
+- html2canvas and jsPDF
 
+## Getting started
 
-<h2>📬 Contact</h2>
+```bash
+npm install
+npm start
+```
 
-If you want to contact me, you can reach me through below handles.
+The development server uses the standard Create React App workflow. Additional scripts are available for tests and production builds:
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+```bash
+npm test
+npm run build
+```
 
-© 2022 Jigar Sable
+## Screenshots
 
+![ResumeGen interface](https://user-images.githubusercontent.com/64949957/159115311-42275489-8fbe-4d80-9f7c-4d308d9287ce.png)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+![ResumeGen device preview](https://user-images.githubusercontent.com/64949957/159115313-ae8bf72c-2a79-425d-8520-32b6ba3e0fcf.jpg)
